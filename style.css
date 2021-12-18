@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #1e272e;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: rgb(226, 226,226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    transition: all .5s linear;
+    border-bottom: 4px solid transparent;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: rgb(226, 226,226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226,226);
+    margin: 5px;
+}
+.burger div:hover{
+    cursor: pointer;
+    background-color: #1e272e;
+}
+.sectionOne{
+    background-image: url(images/bg.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.oneText{
+    text-align: center;
+    margin-top: 250px;
+    color: #fff;
+}
+.oneText h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.oneText p{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.oneText a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #eee;
+    padding: 16px 25px;
+    border-radius: 50px;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+.oneText a:hover{
+    background: #ff7f50;
+    border: 2px solid transparent;
+}
+.sectionTwo{
+    background-image: linear-gradient(rgba(60, 64, 198,.5),rgba(0, 0, 0, .5)), url(images/1.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.sectionThree{
+    background-image: url(images/2.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.nav-links a:hover{
+    background: #3c40c6;
+}
+.nav-links li a{
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
